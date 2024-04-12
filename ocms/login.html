@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Campus Selection System - Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1>RAJALAKSHMI INSTITUTE OF TECHNOLOGY</h1>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <select id="user-type">
+        <option value="student">Student</option>
+        <option value="staff">Staff</option>
+        <option value="company">Company</option>
+      </select>
+      <button type="submit">Login</button>
+    </form>
+    <p id="error-message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
